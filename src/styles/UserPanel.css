@@ -1,0 +1,39 @@
+.panel {
+  background: #111;
+  border: 1px solid #333;
+  padding: 30px;
+  color: #fff;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.panel input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.panel button {
+  background: #00ffae;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.panel button:hover {
+  background: #00cc8c;
+}
+@media (max-width: 480px) {
+  .panel {
+    padding: 20px;
+    margin: 20px auto;
+  }
+}

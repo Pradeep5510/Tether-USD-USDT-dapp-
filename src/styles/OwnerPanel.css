@@ -1,0 +1,13 @@
+.sub-panel {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.sub-panel h3 {
+  color: #00ffae;
+  margin-bottom: 10px;
+}
+.sub-panel p {
+  margin: 8px 0;
+}

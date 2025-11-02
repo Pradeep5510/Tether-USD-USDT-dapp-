@@ -1,0 +1,14 @@
+.token-card {
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+.token-card h2 {
+  margin-bottom: 15px;
+}
