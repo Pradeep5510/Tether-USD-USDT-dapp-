@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# 💰 EduUSDT-DApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An educational decentralized application built to simulate the functionalities of a **USDT-like stable token**, including **minting, burning, transferring**, and **liquidity pool creation** to maintain a $1 price peg.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 Overview
 
-### `npm start`
+**EduUSDT-DApp** is a blockchain-based decentralized application created for **educational and research purposes**.  
+This project demonstrates how stablecoins function on a blockchain through smart contracts, tokenomics, and Web3 integration.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project covers every step — from **developing and deploying the token smart contract** to **creating a liquidity pool** on a DEX (PancakeSwap) to peg the token’s value at **$1 per token**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧩 Smart Contract (Solidity)
+- ERC20/BEP20-compliant smart contract.
+- Custom minting and burning functions.
+- Owner-controlled `forceBurn` mechanism.
+- Integrated token decimals and supply scaling.
+- Deployed on **BNB Smart Chain (Testnet)**.
 
-### `npm run build`
+### 🌐 Frontend (React + Ethers.js)
+- Modern React-based user interface.
+- Wallet connection via **MetaMask**.
+- Live wallet address display on navbar.
+- Token **mint**, **burn**, and **transfer** functionalities.
+- Role-based access (Owner Panel & User Panel).
+- Fully responsive with professional UI/UX design.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💱 Liquidity Pool Integration
+- Created a **liquidity pool on PancakeSwap (Testnet)**.
+- Pegged EduUSDT price to **$1 (1 USDT)**.
+- Verified token contract & visible symbol on wallets.
+- Price fetched dynamically from DEX liquidity.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+| Layer | Technology |
+|--------|-------------|
+| **Smart Contract** | Solidity (ERC20/BEP20 Standard) |
+| **Blockchain** | BNB Smart Chain Testnet |
+| **Frontend** | React.js, Ethers.js |
+| **Wallet Integration** | MetaMask |
+| **DEX Interaction** | PancakeSwap (Liquidity Pool) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧩 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+EduUSDT-DApp/
+│
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── OwnerPanel.jsx
+│ │ ├── UserPanel.jsx
+│ │ └── abi.jsx (excluded from repo for privacy)
+│ ├── styles/
+│ │ ├── Header.css
+│ │ ├── OwnerPanel.css
+│ │ └── UserPanel.css
+│ ├── App.jsx
+│ ├── index.js
+│ └── ...
+│
+├── public/
+│ └── index.html
+│
+├── package.json
+├── .gitignore
+└── README.md
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 How It Works
 
-### Code Splitting
+1. **Connect Wallet** — User connects via MetaMask (BNB Testnet).  
+2. **Owner Panel** — Allows minting and forced burning of tokens.  
+3. **User Panel** — Enables transferring tokens between wallets.  
+4. **Liquidity Pool** — Token price pegged to 1 USDT via PancakeSwap.  
+5. **UI/UX** — Fully responsive, mobile-ready layout for modern DApp feel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧑‍💻 Developer Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project was created entirely by **Pradeep Pathak** as part of a **self-learning initiative** to understand:
+- Smart contract development & deployment.
+- Wallet integration with Web3.
+- Liquidity pool creation and price pegging.
+- React-based decentralized application architecture.
 
-### Making a Progressive Web App
+> 🧾 **Disclaimer:**  
+> This project is built **for educational purposes only**.  
+> The token, liquidity pool, and contracts are **not intended for commercial use** or financial transactions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🔗 Useful Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [BNB Smart Chain Testnet](https://testnet.bscscan.com/)
+- [PancakeSwap Testnet](https://pancakeswap.finance/swap)
+- [MetaMask Wallet](https://metamask.io/)
+- [Ethers.js Documentation](https://docs.ethers.org/)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📜 License
 
-### `npm run build` fails to minify
+This project is open-sourced under the **MIT License**.  
+You are free to fork, modify, and learn from it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🙌 Acknowledgments
+
+- **OpenZeppelin** for secure smart contract standards.
+- **BNB Smart Chain Testnet** for providing free test environments.
+- **PancakeSwap** for DEX and liquidity infrastructure.
+- **MetaMask** for wallet connection support.
+
+---
+
+⭐ **If you find this helpful for learning blockchain or DApp development, consider giving this repo a star!**
