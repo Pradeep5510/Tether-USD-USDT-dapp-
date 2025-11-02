@@ -12,8 +12,10 @@ This project demonstrates how stablecoins function on a blockchain through smart
 The project covers every step — from **developing and deploying the token smart contract** to **creating a liquidity pool** on a DEX (PancakeSwap) to peg the token’s value at **$1 per token**.
 
 ---
-
-
+<img width="1440" height="461" alt="Image" src="https://github.com/user-attachments/assets/ca0778f0-608f-44a6-8884-35114c5c78de" />
+<img width="1440" height="734" alt="Image" src="https://github.com/user-attachments/assets/b12407b1-666f-4a07-a366-a2975539e87d" />
+<img width="1440" height="394" alt="Image" src="https://github.com/user-attachments/assets/58d90cb4-a8ef-466a-baf7-565acfa91930" />
+<img width="1437" height="610" alt="Image" src="https://github.com/user-attachments/assets/c1f11250-5b2e-4a28-a278-879239001c66" />
 
 ## ⚙️ Features
 
