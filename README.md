@@ -1,12 +1,12 @@
-# 💰 EduUSDT-DApp
+# Tether USD USDT-DApp
 
 An educational decentralized application built to simulate the functionalities of a **USDT-like stable token**, including **minting, burning, transferring**, and **liquidity pool creation** to maintain a $1 price peg.
 
 ---
 
-## 🧠 Overview
+##  Overview
 
-**EduUSDT-DApp** is a blockchain-based decentralized application created for **educational and research purposes**.  
+Tether USD USDT-DApp is a blockchain-based decentralized application created for **educational and research purposes**.  
 This project demonstrates how stablecoins function on a blockchain through smart contracts, tokenomics, and Web3 integration.
 
 The project covers every step — from **developing and deploying the token smart contract** to **creating a liquidity pool** on a DEX (PancakeSwap) to peg the token’s value at **$1 per token**.
@@ -52,7 +52,7 @@ The project covers every step — from **developing and deploying the token smar
 
 ## 🧩 Project Structure
 
-EduUSDT-DApp/
+Tether USD USDT-DApp/
 │
 ├── src/
 │ ├── components/
