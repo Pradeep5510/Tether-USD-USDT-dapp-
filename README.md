@@ -89,7 +89,7 @@ Tether USD USDT-DApp/
 
 #Developer Notes
 
-This project was created entirely by **Pradeep Pathak** as part of a **self-learning initiative** to understand:
+This project was created entirely by **Pradeep Kumar** as part of a **self-learning initiative** to understand:
 - Smart contract development & deployment.
 - Wallet integration with Web3.
 - Liquidity pool creation and price pegging.
